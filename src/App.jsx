@@ -1,10 +1,12 @@
 import "./App.css";
+import Header from "./components/header/Header";
+import Nav from "./components/navigation/Nav";
 
 function App() {
   return (
     <>
-      <h1>Pedro</h1>
-      <div className="w-[80%] h-[20%] bg-colorYellow ">Hola</div>
+      <Nav />
+      <Header />
     </>
   );
 }
